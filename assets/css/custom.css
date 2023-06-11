@@ -13,4 +13,139 @@
   background-color: #cfcfcf;
   outline: none;
   border-radius: 20px !important;
+}
+
+.categrie-product a {
+  padding: 12px 12px 28px;
+}
+.categrie-product img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.slick-layout-wrapper--15 .slick-single-layout,
+.slick-layout-wrapper--15 .slick-slide {
+  padding: 0 12px;
+}
+
+.axil-product > .thumbnail > a img {
+  aspect-ratio: 1/1;
+}
+
+.about-style-3 {
+  padding: 80px 0;
+}
+
+.service-box {
+  height: 100%;
+  margin: 0;
+}
+
+@media only screen and (min-width: 1400px) {
+  .service-box {
+    padding: 40px 32px;
+  }
+}
+.testimonial-style-one .media .thumbnail img {
+  width: 60px;
+  aspect-ratio: 1/1;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.testimonial-style-one-wrapper .slick-current.slick-active + .slick-active {
+  margin: 0;
+}
+
+.axil-why-choose-area {
+  padding: 40px 0;
+  background-color: #e5e6ee;
+}
+.axil-why-choose-area .container {
+  padding: 20px 0;
+}
+
+.axil-footer-widget .widget-title {
+  font-weight: bold;
+}
+
+.copyright-default .quick-link li {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+.copyright-default .quick-link li a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 0;
+}
+.copyright-default .quick-link li a img {
+  height: 24px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.header-brand {
+  margin-right: 0px;
+}
+.header-brand a img {
+  height: 35px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.axil-product-list .thumbnail img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  aspect-ratio: 1/1;
+  height: 100px;
+}
+
+.single-product-thumbnail.thumbnail-badge .thumbnail {
+  padding: 0;
+}
+
+.whatsappBtn {
+  background: #25d366;
+  color: var(--color-white) !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.whatsappBtn i {
+  color: white !important;
+  font-size: 20px;
+  margin: 0 !important;
+}
+.whatsappBtn:hover {
+  background: #50b76a !important;
+}
+
+.axil-breadcrumb-area .inner .bradcrumb-thumb img {
+  height: 124px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  transform: scaleX(-1);
+}
+
+.axil-single-post.post-formate .content-block .post-thumbnail img {
+  max-height: 500px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.content-blog .thumbnail a img {
+  height: 200px;
+}
+
+.comming-soon-content .brand-logo img {
+  height: 150px;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }/*# sourceMappingURL=custom.css.map */

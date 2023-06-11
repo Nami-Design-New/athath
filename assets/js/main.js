@@ -1134,3 +1134,16 @@
     axilInit.i();
 
 })(window, document, jQuery);
+
+
+$(document).ready(function () {
+    $(".testimonial-style-one .review-speech p").each(function () {
+      var text = $(this).text();
+      if (text.length > 150) {
+        var truncatedText =
+          $.trim(text).substring(0, 150).split(" ").slice(0, -1).join(" ") + "...";
+        $(this).text(truncatedText);
+      }
+    });
+  });
+  

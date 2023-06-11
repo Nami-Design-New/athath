@@ -1,8 +1,8 @@
 ﻿@import "https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&family=Poppins:wght@400;500;600;700&display=swap";
 :root {
-  --color-primary: #3577f0;
+  --color-primary: #1126a5;
   --light-primary: #8c71db;
-  --color-secondary: #ff497c;
+  --color-secondary: #010D57;
   --color-tertiary: #fab8c4;
   --color-white: #ffffff;
   --color-dark: #27272e;
@@ -1802,7 +1802,7 @@ textarea:-ms-input-placeholder {
   background-color: var(--color-lighter);
 }
 .bg-vista-white {
-  background-color: #f9f3f0;
+  background-color: #e5e6ee;
 }
 .bg-wild-sand {
   background-color: #f6f6f6;
@@ -2512,7 +2512,7 @@ input[type="submit"]:hover {
   border-radius: 50%;
   position: absolute;
   top: -10px;
-  right: 60px;
+  right: 20px;
   z-index: -1;
 }
 .axil-breadcrumb {
@@ -3064,17 +3064,17 @@ button.axil-btn.btn-size-md i {
 .comming-soon-content .newsletter-form input {
   background-color: var(--color-lighter);
 }
-.etrade-newsletter-wrapper {
+.athath-newsletter-wrapper {
   padding: 100px 107px 85px;
   border-radius: 6px;
 }
 @media only screen and (max-width: 1199px) {
-  .etrade-newsletter-wrapper {
+  .athath-newsletter-wrapper {
     padding: 80px 30px 65px;
   }
 }
 @media only screen and (max-width: 767px) {
-  .etrade-newsletter-wrapper {
+  .athath-newsletter-wrapper {
     padding: 60px 20px 45px;
   }
 }
@@ -4312,7 +4312,7 @@ button.axil-btn.btn-size-md i {
   margin-left: -26px;
 }
 .main-slider-content .item-rating .thumb ul li img {
-  border: 2px solid #f9f3f0;
+  border: 2px solid #e5e6ee;
   border-radius: 50%;
 }
 .main-slider-content .item-rating .content {
@@ -4436,7 +4436,7 @@ button.axil-btn.btn-size-md i {
   opacity: 1;
 }
 .main-slider-style-1 {
-  background-color: #f9f3f0;
+  background-color: #e5e6ee;
   padding: 90px 0;
   position: relative;
   z-index: 1;
@@ -6621,7 +6621,7 @@ button.axil-btn.btn-size-md i {
   bottom: 20px;
 }
 .header-style-1 {
-  background-color: #f9f3f0;
+  background-color: #e5e6ee;
   padding-bottom: 30px;
 }
 .header-style-1 .header-navbar {
@@ -6663,7 +6663,7 @@ button.axil-btn.btn-size-md i {
   }
 }
 .header-style-3 {
-  background-color: #f9f3f0;
+  background-color: #e5e6ee;
 }
 .header-style-3 .axil-mainmenu {
   padding: 20px 0;
@@ -11120,7 +11120,7 @@ body.open .closeMask {
   background-color: rgba(0, 0, 0, 0);
 }
 .pro-des-commend-respond .form-group label {
-  background-color: #f9f3f0;
+  background-color: #e5e6ee;
 }
 .pro-des-commend-respond .form-group textarea {
   padding-left: 30px;
@@ -11747,7 +11747,7 @@ body.open .closeMask {
   border-color: var(--color-primary);
 }
 .axil-order-summery {
-  background-color: #f9f3f0;
+  background-color: #e5e6ee;
   border-radius: 6px;
   padding: 40px;
 }
@@ -12499,7 +12499,7 @@ body.open .closeMask {
   display: inline-flex;
 }
 .content-blog.sticky .inner {
-  background: #f9f3f0;
+  background: #e5e6ee;
   border-left: 6px solid var(--color-tertiary);
   border-radius: var(--radius);
   padding: 50px;
@@ -12510,7 +12510,7 @@ body.open .closeMask {
   }
 }
 .content-blog.format-quote .inner {
-  background: #f9f3f0;
+  background: #e5e6ee;
   border-left: 6px solid var(--color-tertiary);
   border-radius: var(--radius);
   padding: 50px 40px 30px;
@@ -17729,3 +17729,11 @@ body.open .closeMask {
   border-radius: 4px;
   margin-right: 8px;
 }
+.position-view {
+  left: 16px;
+}
+
+.axil-team-area .slick-track{
+  margin-right: unset;
+}
+
