@@ -148,4 +148,27 @@
   width: 100%;
   -o-object-fit: contain;
      object-fit: contain;
+}
+
+.fancybox__container {
+  z-index: 1999;
+}
+
+.fancybox__track,
+.fancybox__content,
+.carousel__track {
+  direction: ltr !important;
+}
+
+.fancybox__caption {
+  text-align: center;
+}
+
+.single-product-thumbnail .thumbnail img {
+  cursor: zoom-in;
+  aspect-ratio: 1/1;
+}
+
+.small-thumb-wrapper .slick-track {
+  transform: unset !important;
 }/*# sourceMappingURL=custom.css.map */
